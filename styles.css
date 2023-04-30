@@ -1,48 +1,54 @@
-/* your code here */
-.top {
-	display: flex;
-	justify-content: space-between;
-	background-color: black;
-  }
-
-.logo-details {
-	display: flex;
-	flex:1;
-	justify-content: space-between;
-	color: white;
-	padding: 10px;
+button {
+	width:100%;
 }
 
-ul {
-	list-style:none;
+.product h4 {
+	color: #3b99e0;
+
 }
 
-.media-icons ul{
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
+.summary h4 {
+	margin: 0px 20px;
+} 
+
+
+.page {
+	display: block;
+	margin: 0 auto;
+}
+ 
+
+div.head {
+	text-align: center;
 }
 
-img {
-	width:3vw;
-	height:6vh;
-	padding: 20px;
+div {
+	background-color:whitesmoke;
 }
 
-.bottom-details {
-	display: flex;
-	justify-content: space-around;
-	background-color: black;
-	color: white;
+div h1 {
+	color:#3b99e0;
 }
 
-.foot {
-	display: flex;
-	justify-content: space-between;
-	background-color: lightslategray;
-	padding: 15px;
+div p {
+	margin: 20px;
 }
 
-a {
-	color: white;
+div.summary {
+	padding: 0px 80px;
+	background-color: #f7fbff;
+	border-top:4px solid #5ea4f3;
+}
+
+div.summary li {
+	background-color: #f7fbff;
+}
+
+input {
+	width:30%;
+	text-align: center;
+}
+
+.container {
+	background-color: red !important;
 }
